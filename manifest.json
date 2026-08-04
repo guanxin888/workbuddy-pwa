@@ -1,0 +1,19 @@
+{
+  "name": "关心的爽文系统",
+  "short_name": "爽文系统",
+  "description": "关心的个人自媒体学习创作工作台",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#9B7EBD",
+  "background_color": "#F8F6FC",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/cat-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

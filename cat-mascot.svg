@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="catBody" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#FFF8F0"/>
+      <stop offset="100%" stop-color="#F0E0F5"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="100" cy="120" rx="70" ry="60" fill="url(#catBody)"/>
+  <ellipse cx="65" cy="78" rx="22" ry="32" fill="url(#catBody)" transform="rotate(-18 65 78)"/>
+  <ellipse cx="135" cy="78" rx="22" ry="32" fill="url(#catBody)" transform="rotate(18 135 78)"/>
+  <ellipse cx="65" cy="80" rx="11" ry="20" fill="#FFB6D9" transform="rotate(-18 65 80)"/>
+  <ellipse cx="135" cy="80" rx="11" ry="20" fill="#FFB6D9" transform="rotate(18 135 80)"/>
+  <ellipse cx="85" cy="110" rx="6" ry="9" fill="#333344"/>
+  <ellipse cx="115" cy="110" rx="6" ry="9" fill="#333344"/>
+  <circle cx="86" cy="108" r="2" fill="#FFF"/>
+  <circle cx="116" cy="108" r="2" fill="#FFF"/>
+  <ellipse cx="100" cy="125" rx="5" ry="4" fill="#FFB6C1"/>
+  <path d="M92 135 Q100 142 108 135" stroke="#333344" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M80 122 Q72 124 68 122" stroke="#E6E7E4" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M120 122 Q128 124 132 122" stroke="#E6E7E4" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M170 145 Q175 138 173 132" stroke="#333344" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

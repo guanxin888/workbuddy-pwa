@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="关心的个人自媒体学习创作工作台 — 考研备考、自媒体运营、记账理财一站式管理" />
+    <meta name="keywords" content="自媒体,学习,考研,工作台,个人管理,记账,小红书,抖音" />
+    <meta name="author" content="关心" />
+    <meta name="theme-color" content="#9B7EBD" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="爽文系统" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" type="image/svg+xml" href="/cat-icon.svg" />
+    <link rel="apple-touch-icon" href="/cat-icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>关心的爽文系统 · 自媒体学习工作台</title>
+    <script type="module" crossorigin src="/assets/index-B5F-Mjrj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DKNp-P2r.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/service-worker.js', { scope: '/' }).then(function(reg) {
+            console.log('[SW] 注册成功:', reg.scope);
+          }).catch(function(err) {
+            console.log('[SW] 注册失败:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
